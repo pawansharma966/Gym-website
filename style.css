@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.top {
+  background-color: yellow;
+  width: 100%;
+  height: 50%;
+}
+.top h3 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h2 {
+  padding: 10px 0px 10px 20px;
+  color: rgb(71, 71, 70);
+}
+.nav {
+  margin: 10px 40px 0px 0px;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: rgb(88, 88, 87);
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav a:hover {
+  color: rgb(157, 122, 122);
+}
+.Hom {
+  background-image: url("https://cdn.pixabay.com/photo/2021/01/04/06/21/man-5886576_1280.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.Hom h1 {
+  padding-left: 60px;
+  font-weight: 800;
+  font-size: 60px;
+  padding-top: 150px;
+  color: rgb(243, 247, 247);
+}
+.Hom h4 {
+  padding-left: 60px;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 50;
+  color: aliceblue;
+}
+.but {
+  display: flex;
+  justify-content: right;
+}
+.get {
+  border: none;
+  background-color: rgb(123, 177, 208);
+  width: 20%;
+  height: 13vh;
+}
+.get:hover {
+  background-color: rgb(238, 226, 60);
+}
+.book {
+  border: none;
+  width: 20%;
+  height: 13vh;
+  background-color: rgb(9, 78, 94);
+  color: aliceblue;
+}
+.book:hover {
+  background-color: rgb(123, 177, 208);
+  color: rgb(39, 38, 38);
+}
+.Ey {
+  justify-content: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+.Em {
+  margin-left: 120px;
+  margin-top: 80px;
+  background-image: url(https://cdn.pixabay.com/photo/2024/05/07/03/49/woman-8744701_1280.jpg);
+  width: 50%;
+  height: 100vh;
+}
+.Emi {
+  margin-left: 480px;
+  margin-top: 300px;
+  background-color: yellow;
+  width: 30%;
+  height: 70vh;
+  position: absolute;
+  padding: 50px 20px 0px 60px;
+}
+.Emi h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: rgb(31, 36, 47);
+}
+.Emi h3 {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(31, 36, 47);
+  padding-top: 15px;
+}
+.Emi h6 {
+  padding-top: 20px;
+  color: rgb(31, 36, 47);
+  line-height: 20px;
+  font-size: 12px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-align: justify;
+  font-weight: 30;
+}
+.btm {
+  margin-left: 0px;
+  margin-top: 50px;
+  border: none;
+  background-color: rgb(14, 48, 67);
+  width: 40%;
+  height: 10vh;
+  color: white;
+  margin-bottom: 0px;
+}
+.btm:hover {
+  background-color: rgb(123, 196, 238);
+  color: rgb(41, 43, 43);
+}
+
+.int {
+  margin-top: 250px;
+  width: 100%;
+}
+.int1 {
+  background-image: url(https://cdn.pixabay.com/photo/2021/02/03/11/32/gym-5977600_1280.jpg);
+  width: 70%;
+  height: 90vh;
+  float: right;
+}
+.int2 {
+  background-color: aqua;
+  width: 50%;
+  height: 73vh;
+  margin-top: 200px;
+  margin-left: 100px;
+  position: absolute;
+}
+.int2 h1 {
+  font-size: 60px;
+  font-weight: 50;
+  padding: 60px 60px 0px;
+  color: rgb(30, 57, 83);
+}
+
+.int2 h3 {
+  padding: 10px 60px;
+  font-size: 30px;
+  font-weight: 35;
+  color: rgb(55, 84, 111);
+}
+.int2 p {
+  padding: 10px 60px;
+  font-size: 18px;
+  font-weight: 5;
+  color: rgb(93, 142, 187);
+  line-height: 28px;
+}
+.intb {
+  background-color: rgb(247, 247, 18);
+  width: 40%;
+  height: 10vh;
+  margin-top: 32px;
+  border: none;
+
+  float: right;
+}
+.intb:hover {
+  background-color: rgb(23, 53, 75);
+  color: aliceblue;
+}
+.ou {
+  margin-top: 80%;
+  height: 100vh;
+  background-color: rgb(240, 238, 233);
+  width: 100%;
+}
+.ou h1 {
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  padding-top: 25px;
+  color: rgb(111, 111, 196);
+}
+.our {
+  display: flex;
+  gap: 28px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.our1 {
+  width: 20%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.r1 {
+  width: 100%;
+  height: 25vh;
+  background-color: aliceblue;
+}
+.our h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(150, 166, 236);
+}
+.our h5 {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: rgb(140, 143, 156);
+  font-size: 16px;
+}
+.our h6 {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(57, 79, 128);
+}
+
+.our2 {
+  width: 20%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.r2 {
+  width: 100%;
+  height: 25vh;
+  background-color: aliceblue;
+}
+.our3 {
+  width: 20%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.r3 {
+  width: 100%;
+  height: 25vh;
+  background-color: aliceblue;
+}
+
+.oub {
+  justify-content: center;
+  width: 13%;
+  height: 47px;
+  margin-top: 14%;
+  margin-left: 43%;
+  margin-bottom: 10%;
+  background-color: rgb(30, 53, 77);
+  color: white;
+  border: none;
+}
+.oub:hover {
+  background-color: rgb(132, 213, 218);
+  color: rgb(62, 61, 61);
+}
+
+.fit {
+  max-width: 100%;
+  height: 60vh;
+  background-image: url(https://cdn.pixabay.com/photo/2022/02/21/12/01/weight-7026563_1280.jpg);
+  text-align: center;
+  margin-top: 10%;
+  padding-top: 19%;
+  padding-right: 90px;
+  justify-content: center;
+}
+.fit h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+.fit h3 {
+  padding-top: 25px;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+}
+.fit h6 {
+  padding-top: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+/* footer */
+.cf {
+  width: 100%;
+  display: flex;
+}
+
+.cont {
+  width: 30%;
+  height: 60vh;
+  padding: 60px 10px 20px 100px;
+  background-color: rgb(175, 247, 247);
+  line-height: 30px;
+}
+.cont h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(51, 79, 107);
+}
+.cont h4 {
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 40px;
+  line-height: 30px;
+  color: rgb(114, 124, 128);
+}
+
+.form {
+  margin-top: 10%;
+  padding-left: 5%;
+}
+.fo input:focus {
+  outline: none;
+  font-size: large;
+}
+.sub {
+  width: 90%;
+  height: 50px;
+  margin-top: 12%;
+  margin-left: 2%;
+  border: none;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: rgb(252, 253, 254);
+}
+.sub:hover {
+  background-color: yellow;
+}
+
+.fot {
+  padding-top: 28px;
+  text-align: center;
+  width: 100%;
+  height: 8vh;
+  background-color: yellow;
+}
